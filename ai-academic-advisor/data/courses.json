@@ -1,0 +1,65 @@
+[
+  {
+    "id": "cs-fundamentals",
+    "name": "Computer Science Fundamentals",
+    "description": "Core CS concepts: algorithms, data structures, operating systems, and computer architecture",
+    "skills": ["Data Structures & Algorithms", "Operating Systems", "Computer Architecture", "Problem Solving"],
+    "relatedCareers": ["software-engineer", "cloud-engineer", "ai-engineer", "devops-engineer", "full-stack-developer"]
+  },
+  {
+    "id": "cloud-aws",
+    "name": "AWS Cloud Computing",
+    "description": "Amazon Web Services core services including EC2, S3, RDS, Lambda, IAM, and VPC",
+    "skills": ["AWS Cloud Platforms", "Cloud Architecture", "Cloud Security", "IaC"],
+    "relatedCareers": ["cloud-engineer", "devops-engineer", "software-engineer"]
+  },
+  {
+    "id": "cloud-gcp",
+    "name": "Google Cloud Platform",
+    "description": "Google Cloud services including Compute Engine, GKE, BigQuery, Cloud Run, and Pub/Sub",
+    "skills": ["GCP Cloud Platforms", "Kubernetes", "BigQuery", "Serverless"],
+    "relatedCareers": ["cloud-engineer", "data-scientist", "ai-engineer"]
+  },
+  {
+    "id": "devops-core",
+    "name": "DevOps Engineering",
+    "description": "CI/CD pipelines, container orchestration, infrastructure automation, and site reliability",
+    "skills": ["Docker & Kubernetes", "CI/CD Pipelines", "Terraform (IaC)", "Monitoring"],
+    "relatedCareers": ["devops-engineer", "cloud-engineer", "software-engineer"]
+  },
+  {
+    "id": "machine-learning",
+    "name": "Machine Learning",
+    "description": "Supervised/unsupervised learning, neural networks, model evaluation, and MLOps",
+    "skills": ["Machine Learning Fundamentals", "Python for ML", "Deep Learning", "Statistical Analysis"],
+    "relatedCareers": ["ai-engineer", "data-scientist", "researcher"]
+  },
+  {
+    "id": "web-full-stack",
+    "name": "Full Stack Web Development",
+    "description": "Frontend (React), backend (Node.js/Python), databases, REST APIs, and deployment",
+    "skills": ["React / Next.js", "Node.js Backend", "SQL & NoSQL", "REST APIs"],
+    "relatedCareers": ["full-stack-developer", "software-engineer", "mobile-developer"]
+  },
+  {
+    "id": "cyber-security",
+    "name": "Cybersecurity",
+    "description": "Network security, ethical hacking, cryptography, SIEM, and incident response",
+    "skills": ["Network Security", "Ethical Hacking", "Cryptography", "SIEM"],
+    "relatedCareers": ["cyber-security-engineer"]
+  },
+  {
+    "id": "data-engineering",
+    "name": "Data Engineering",
+    "description": "Data pipelines, warehousing, ETL processes, and big data technologies",
+    "skills": ["SQL & Database Querying", "Python Data Science Libraries", "Data Modeling", "ETL"],
+    "relatedCareers": ["data-scientist", "ai-engineer", "software-engineer"]
+  },
+  {
+    "id": "networking",
+    "name": "Computer Networking",
+    "description": "TCP/IP, DNS, routing protocols, VPNs, load balancing, and network security",
+    "skills": ["Networking & TCP/IP", "Network Security", "DNS", "Routing"],
+    "relatedCareers": ["cloud-engineer", "devops-engineer", "cyber-security-engineer"]
+  }
+]

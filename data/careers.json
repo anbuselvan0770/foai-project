@@ -1,0 +1,198 @@
+[
+  {
+    "id": "cloud-engineer",
+    "title": "Cloud Engineer",
+    "description": "Design, build, and manage cloud infrastructure and services on platforms like AWS, Azure, or GCP.",
+    "skills": [
+      { "name": "Linux", "priority": "High", "reason": "Foundation for cloud server management" },
+      { "name": "Networking", "priority": "High", "reason": "Understanding TCP/IP, DNS, VPNs is essential for cloud infrastructure" },
+      { "name": "Cloud Fundamentals", "priority": "High", "reason": "Core knowledge of cloud service models (IaaS, PaaS, SaaS)" },
+      { "name": "AWS / Azure / GCP", "priority": "High", "reason": "Hands-on platform experience is required for cloud roles" },
+      { "name": "Docker", "priority": "High", "reason": "Containerization is standard in cloud deployments" },
+      { "name": "Kubernetes", "priority": "Medium", "reason": "Container orchestration at scale" },
+      { "name": "Python", "priority": "Medium", "reason": "Scripting and automation in cloud environments" },
+      { "name": "CI/CD", "priority": "Medium", "reason": "Automated deployment pipelines are a key cloud engineering skill" },
+      { "name": "Terraform / IaC", "priority": "Medium", "reason": "Infrastructure as Code for repeatable deployments" },
+      { "name": "Security Fundamentals", "priority": "Medium", "reason": "Cloud security is a critical responsibility" }
+    ],
+    "relatedSubjects": ["Computer Networks", "Operating Systems", "Database Management Systems"],
+    "certifications": ["AWS Cloud Practitioner", "Google Associate Cloud Engineer", "Azure Fundamentals AZ-900"],
+    "suggestedProjects": [
+      "Deploy a web application on AWS EC2 with load balancing",
+      "Create a Kubernetes cluster and deploy microservices",
+      "Build a CI/CD pipeline using GitHub Actions and AWS",
+      "Set up a serverless function with AWS Lambda",
+      "Implement Infrastructure as Code using Terraform"
+    ]
+  },
+  {
+    "id": "ai-engineer",
+    "title": "AI Engineer",
+    "description": "Build AI-powered applications, integrate LLMs, and develop machine learning pipelines.",
+    "skills": [
+      { "name": "Python", "priority": "High", "reason": "Primary language for AI/ML development" },
+      { "name": "Mathematics & Statistics", "priority": "High", "reason": "Foundation for understanding ML algorithms" },
+      { "name": "Machine Learning", "priority": "High", "reason": "Core knowledge for building intelligent systems" },
+      { "name": "Deep Learning", "priority": "High", "reason": "Neural networks power modern AI applications" },
+      { "name": "NLP", "priority": "High", "reason": "Natural Language Processing for text-based AI" },
+      { "name": "LLMs & Prompt Engineering", "priority": "High", "reason": "Large Language Models are the forefront of AI engineering" },
+      { "name": "Data Preprocessing", "priority": "Medium", "reason": "Clean data is essential for accurate models" },
+      { "name": "TensorFlow / PyTorch", "priority": "Medium", "reason": "Industry-standard deep learning frameworks" },
+      { "name": "API Integration", "priority": "Medium", "reason": "Connecting AI services to applications" },
+      { "name": "Cloud AI Services", "priority": "Medium", "reason": "Deploying and scaling AI workloads" }
+    ],
+    "relatedSubjects": ["Mathematics", "Data Structures", "Database Management Systems", "Python Programming"],
+    "certifications": ["Google Professional ML Engineer", "TensorFlow Developer Certificate", "DeepLearning.AI Specializations"],
+    "suggestedProjects": [
+      "Build a text classification model using HuggingFace Transformers",
+      "Create a chatbot using LLM APIs and RAG architecture",
+      "Develop a sentiment analysis application",
+      "Build a recommendation system",
+      "Fine-tune a pre-trained model for a domain-specific task"
+    ]
+  },
+  {
+    "id": "software-engineer",
+    "title": "Software Engineer",
+    "description": "Design, develop, test, and maintain software systems and applications.",
+    "skills": [
+      { "name": "Data Structures & Algorithms", "priority": "High", "reason": "Core to software engineering interviews and problem solving" },
+      { "name": "Object-Oriented Programming", "priority": "High", "reason": "Foundation of software design" },
+      { "name": "System Design", "priority": "High", "reason": "Designing scalable and reliable systems" },
+      { "name": "Version Control (Git)", "priority": "High", "reason": "Collaborative development standard" },
+      { "name": "Testing & Debugging", "priority": "High", "reason": "Ensuring software quality" },
+      { "name": "Database Management", "priority": "Medium", "reason": "Data persistence in applications" },
+      { "name": "API Design", "priority": "Medium", "reason": "Building and consuming APIs" },
+      { "name": "Agile / Scrum", "priority": "Medium", "reason": "Modern software development methodology" }
+    ],
+    "relatedSubjects": ["Data Structures", "Software Engineering", "Database Management Systems", "Operating Systems"],
+    "certifications": ["Oracle Java SE Certification", "AWS Developer Associate", "Microsoft Azure Developer"],
+    "suggestedProjects": [
+      "Build a full-stack web application with authentication",
+      "Create a REST API with proper documentation",
+      "Implement common data structures from scratch",
+      "Build a real-time chat application",
+      "Develop a microservices architecture"
+    ]
+  },
+  {
+    "id": "devops-engineer",
+    "title": "DevOps Engineer",
+    "description": "Bridge development and operations through automation, CI/CD, and infrastructure management.",
+    "skills": [
+      { "name": "Linux Administration", "priority": "High", "reason": "Most servers run Linux; scripting and administration are essential" },
+      { "name": "CI/CD Pipelines", "priority": "High", "reason": "Automating build, test, and deployment workflows" },
+      { "name": "Docker & Containerization", "priority": "High", "reason": "Standard for packaging applications" },
+      { "name": "Kubernetes", "priority": "High", "reason": "Orchestrating containerized workloads at scale" },
+      { "name": "Infrastructure as Code", "priority": "High", "reason": "Terraform, Ansible for automated infrastructure" },
+      { "name": "Monitoring & Observability", "priority": "Medium", "reason": "Prometheus, Grafana for system health" },
+      { "name": "Cloud Platforms", "priority": "Medium", "reason": "AWS, Azure, or GCP for infrastructure" },
+      { "name": "Scripting (Bash/Python)", "priority": "Medium", "reason": "Automating repetitive tasks" }
+    ],
+    "relatedSubjects": ["Operating Systems", "Computer Networks", "Software Engineering"],
+    "certifications": ["AWS DevOps Engineer Professional", "Certified Kubernetes Administrator", "HashiCorp Terraform Associate"],
+    "suggestedProjects": [
+      "Set up a complete CI/CD pipeline with Jenkins or GitHub Actions",
+      "Deploy a multi-tier application using Docker Compose",
+      "Create a Kubernetes deployment with auto-scaling",
+      "Implement monitoring with Prometheus and Grafana",
+      "Write Infrastructure as Code using Terraform"
+    ]
+  },
+  {
+    "id": "cyber-security-engineer",
+    "title": "Cyber Security Engineer",
+    "description": "Protect systems and networks from digital attacks and security threats.",
+    "skills": [
+      { "name": "Networking Fundamentals", "priority": "High", "reason": "Understanding network protocols is fundamental to security" },
+      { "name": "Linux", "priority": "High", "reason": "Most security tools run on Linux; system-level knowledge is critical" },
+      { "name": "Security Fundamentals", "priority": "High", "reason": "Core principles of CIA triad, risk management" },
+      { "name": "Cryptography", "priority": "High", "reason": "Encryption, hashing, PKI are the backbone of security" },
+      { "name": "Ethical Hacking / Penetration Testing", "priority": "High", "reason": "Offensive security techniques to find vulnerabilities" },
+      { "name": "SIEM & Threat Analysis", "priority": "Medium", "reason": "Detecting and responding to security incidents" },
+      { "name": "Web Application Security", "priority": "Medium", "reason": "OWASP Top 10, XSS, SQL injection prevention" },
+      { "name": "Incident Response", "priority": "Medium", "reason": "Handling security breaches effectively" }
+    ],
+    "relatedSubjects": ["Computer Networks", "Operating Systems", "Database Management Systems"],
+    "certifications": ["CompTIA Security+", "CEH - Certified Ethical Hacker", "CISSP", "OSCP"],
+    "suggestedProjects": [
+      "Set up a home lab for penetration testing using Kali Linux",
+      "Perform a web application security audit using OWASP methodology",
+      "Create a network intrusion detection system",
+      "Implement a secure authentication system",
+      "Participate in a CTF (Capture the Flag) competition"
+    ]
+  },
+  {
+    "id": "data-scientist",
+    "title": "Data Scientist",
+    "description": "Extract insights from complex datasets using statistical analysis and machine learning.",
+    "skills": [
+      { "name": "Python / R", "priority": "High", "reason": "Primary data science languages" },
+      { "name": "Statistics & Probability", "priority": "High", "reason": "Foundation of data analysis and inference" },
+      { "name": "Data Wrangling", "priority": "High", "reason": "Cleaning and preprocessing real-world data" },
+      { "name": "Machine Learning", "priority": "High", "reason": "Building predictive models" },
+      { "name": "Data Visualization", "priority": "High", "reason": "Communicating insights effectively" },
+      { "name": "SQL & Database Querying", "priority": "Medium", "reason": "Retrieving and manipulating structured data" },
+      { "name": "Big Data Tools", "priority": "Medium", "reason": "Spark, Hadoop for large-scale data processing" },
+      { "name": "Feature Engineering", "priority": "Medium", "reason": "Creating meaningful features for ML models" }
+    ],
+    "relatedSubjects": ["Mathematics", "Statistics", "Database Management Systems", "Python Programming"],
+    "certifications": ["IBM Data Science Professional", "Google Data Analytics Certificate", "Microsoft Azure Data Scientist"],
+    "suggestedProjects": [
+      "Perform exploratory data analysis on a public dataset",
+      "Build a predictive model and evaluate its performance",
+      "Create an interactive data dashboard",
+      "Conduct A/B test analysis",
+      "Build a recommendation system using collaborative filtering"
+    ]
+  },
+  {
+    "id": "full-stack-developer",
+    "title": "Full Stack Developer",
+    "description": "Build complete web applications handling both frontend and backend development.",
+    "skills": [
+      { "name": "HTML / CSS / JavaScript", "priority": "High", "reason": "Core web development fundamentals" },
+      { "name": "React / Next.js", "priority": "High", "reason": "Most widely used frontend frameworks" },
+      { "name": "Node.js / Backend Framework", "priority": "High", "reason": "Server-side JavaScript development" },
+      { "name": "Database Design (SQL/NoSQL)", "priority": "High", "reason": "Data persistence and retrieval" },
+      { "name": "REST APIs / GraphQL", "priority": "High", "reason": "Client-server communication" },
+      { "name": "Authentication & Security", "priority": "Medium", "reason": "Secure user management" },
+      { "name": "Deployment & Hosting", "priority": "Medium", "reason": "Taking applications from development to production" },
+      { "name": "TypeScript", "priority": "Medium", "reason": "Type-safe JavaScript for larger codebases" }
+    ],
+    "relatedSubjects": ["Data Structures", "Database Management Systems", "Software Engineering"],
+    "certifications": ["Meta Frontend Developer", "IBM Full Stack Cloud Developer", "AWS Developer Associate"],
+    "suggestedProjects": [
+      "Build a full-featured e-commerce platform",
+      "Create a real-time collaboration tool",
+      "Develop a social media application with authentication",
+      "Build a blog platform with CMS",
+      "Create a project management application"
+    ]
+  },
+  {
+    "id": "mobile-developer",
+    "title": "Mobile Developer",
+    "description": "Build mobile applications for iOS and Android platforms.",
+    "skills": [
+      { "name": "React Native / Flutter", "priority": "High", "reason": "Cross-platform mobile development" },
+      { "name": "JavaScript / Dart", "priority": "High", "reason": "Primary programming languages for mobile" },
+      { "name": "Mobile UI/UX Design", "priority": "High", "reason": "Creating intuitive mobile interfaces" },
+      { "name": "API Integration", "priority": "High", "reason": "Connecting mobile apps to backend services" },
+      { "name": "State Management", "priority": "Medium", "reason": "Managing application state in complex apps" },
+      { "name": "App Store Deployment", "priority": "Medium", "reason": "Publishing to Google Play and Apple App Store" },
+      { "name": "Push Notifications", "priority": "Medium", "reason": "User engagement and real-time updates" },
+      { "name": "Mobile Security", "priority": "Medium", "reason": "Secure data storage and transmission on device" }
+    ],
+    "relatedSubjects": ["Data Structures", "Software Engineering", "Database Management Systems"],
+    "certifications": ["Google Android Developer", "Apple iOS Developer", "Meta React Native Developer"],
+    "suggestedProjects": [
+      "Build a cross-platform to-do app with React Native",
+      "Create a weather app consuming a public API",
+      "Develop a fitness tracking application",
+      "Build a chat application with real-time messaging",
+      "Create an e-commerce mobile app"
+    ]
+  }
+]

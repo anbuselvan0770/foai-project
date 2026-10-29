@@ -1,0 +1,202 @@
+[
+  {
+    "id": "cloud-engineer",
+    "title": "Cloud Engineer",
+    "description": "Cloud Engineers design, build, and maintain cloud-based infrastructure and services. They work with platforms like AWS, Azure, and GCP to deploy scalable, reliable applications and systems.",
+    "skills": [
+      { "name": "AWS/Azure Cloud Platforms", "priority": "High", "reason": "Core cloud platforms used in 90% of cloud engineering roles" },
+      { "name": "Docker & Kubernetes", "priority": "High", "reason": "Container orchestration is fundamental to modern cloud deployments" },
+      { "name": "Linux Administration", "priority": "High", "reason": "Most cloud infrastructure runs on Linux" },
+      { "name": "Terraform (IaC)", "priority": "High", "reason": "Infrastructure as Code is essential for repeatable, automated deployments" },
+      { "name": "Networking & TCP/IP", "priority": "High", "reason": "VPCs, subnets, routing, and security groups require deep networking knowledge" },
+      { "name": "CI/CD Pipelines", "priority": "Medium", "reason": "Automated deployment pipelines are standard in cloud environments" },
+      { "name": "Python / Bash Scripting", "priority": "Medium", "reason": "Automation scripts are heavily used in cloud operations" },
+      { "name": "Database Management", "priority": "Medium", "reason": "Managing RDS, DynamoDB, or cloud-native databases is often required" }
+    ],
+    "relatedSubjects": ["Computer Networks", "Operating Systems", "Database Management Systems", "Software Engineering"],
+    "certifications": ["AWS Cloud Practitioner", "AWS Solutions Architect Associate", "Google Cloud Associate Engineer", "Azure Fundamentals AZ-900"],
+    "suggestedProjects": [
+      "Deploy a 3-tier web application on AWS (EC2, RDS, ELB)",
+      "Create a CI/CD pipeline using GitHub Actions and deploy to AWS ECS",
+      "Set up Kubernetes cluster and deploy a microservices application",
+      "Build Infrastructure as Code using Terraform for a cloud environment",
+      "Implement auto-scaling and load balancing for a web application"
+    ]
+  },
+  {
+    "id": "software-engineer",
+    "title": "Software Engineer",
+    "description": "Software Engineers design, develop, test, and maintain software systems. They work across the full stack and collaborate in teams using agile methodologies.",
+    "skills": [
+      { "name": "Data Structures & Algorithms", "priority": "High", "reason": "Core to technical interviews and efficient system design" },
+      { "name": "System Design", "priority": "High", "reason": "Essential for designing scalable software architecture" },
+      { "name": "Programming Languages (Python/Java/C++)", "priority": "High", "reason": "Proficiency in at least one major language is required" },
+      { "name": "Version Control (Git)", "priority": "High", "reason": "Fundamental tool for all modern software development" },
+      { "name": "Testing & Debugging", "priority": "Medium", "reason": "Writing testable, reliable code is a core engineering skill" },
+      { "name": "Software Design Patterns", "priority": "Medium", "reason": "Design patterns enable reusable, maintainable code" },
+      { "name": "Agile/Scrum Methodology", "priority": "Medium", "reason": "Most engineering teams use agile workflows" }
+    ],
+    "relatedSubjects": ["Data Structures", "Software Engineering", "Operating Systems", "Database Management Systems"],
+    "certifications": ["Oracle Certified Java Programmer", "AWS Developer Associate", "Google Professional Software Engineer"],
+    "suggestedProjects": [
+      "Build a REST API with authentication using Node.js or Python",
+      "Implement common data structures and algorithms from scratch",
+      "Create a full-stack web application with database integration",
+      "Contribute to an open-source project on GitHub",
+      "Design and build a microservices-based application"
+    ]
+  },
+  {
+    "id": "ai-engineer",
+    "title": "AI Engineer",
+    "description": "AI Engineers build and deploy artificial intelligence and machine learning systems. They work with frameworks like TensorFlow, PyTorch, and LLM APIs to create intelligent applications.",
+    "skills": [
+      { "name": "Python for Machine Learning", "priority": "High", "reason": "Python is the dominant language in AI/ML development" },
+      { "name": "Machine Learning Fundamentals", "priority": "High", "reason": "Understanding ML algorithms is foundational to AI engineering" },
+      { "name": "Deep Learning (PyTorch/TensorFlow)", "priority": "High", "reason": "Deep learning frameworks are used for building neural networks" },
+      { "name": "Mathematics (Linear Algebra, Statistics)", "priority": "High", "reason": "Mathematical foundations underpin all ML algorithms" },
+      { "name": "LLM APIs & Prompt Engineering", "priority": "High", "reason": "Working with large language models is a growing engineering skill" },
+      { "name": "Data Preprocessing & EDA", "priority": "Medium", "reason": "Data preparation is 70% of any ML project" },
+      { "name": "MLOps & Model Deployment", "priority": "Medium", "reason": "Deploying and maintaining ML models in production is critical" }
+    ],
+    "relatedSubjects": ["Data Structures", "Database Management Systems", "Computer Networks", "Software Engineering"],
+    "certifications": ["TensorFlow Developer Certificate", "AWS Machine Learning Specialty", "DeepLearning.AI Deep Learning Specialization"],
+    "suggestedProjects": [
+      "Build an image classification model using CNNs",
+      "Create a sentiment analysis system using BERT",
+      "Build an LLM-powered chatbot using OpenAI or Gemini API",
+      "Implement a recommendation system using collaborative filtering",
+      "Train and deploy a custom ML model to a cloud API endpoint"
+    ]
+  },
+  {
+    "id": "data-scientist",
+    "title": "Data Scientist",
+    "description": "Data Scientists extract insights from data using statistics, machine learning, and visualization. They help organizations make data-driven decisions.",
+    "skills": [
+      { "name": "Statistical Analysis", "priority": "High", "reason": "Statistics is the foundation of data science" },
+      { "name": "Python Data Science Libraries (Pandas, NumPy, Scikit-learn)", "priority": "High", "reason": "Industry-standard tools for data analysis and ML" },
+      { "name": "Data Visualization (Matplotlib, Tableau)", "priority": "High", "reason": "Communicating insights through visualizations is key" },
+      { "name": "SQL & Database Querying", "priority": "High", "reason": "Most data science work starts with database queries" },
+      { "name": "Machine Learning", "priority": "High", "reason": "Predictive modeling is central to data science work" },
+      { "name": "A/B Testing", "priority": "Medium", "reason": "Hypothesis testing and experiment design are data science core skills" }
+    ],
+    "relatedSubjects": ["Database Management Systems", "Data Structures", "Software Engineering"],
+    "certifications": ["IBM Data Science Professional Certificate", "Google Data Analytics Certificate", "Datacamp Data Scientist Track"],
+    "suggestedProjects": [
+      "Perform exploratory data analysis on a Kaggle dataset",
+      "Build a predictive model for a classification or regression problem",
+      "Create an interactive data dashboard using Dash or Streamlit",
+      "Analyze real-world data and write a detailed report with visualizations",
+      "Participate in a Kaggle competition"
+    ]
+  },
+  {
+    "id": "devops-engineer",
+    "title": "DevOps Engineer",
+    "description": "DevOps Engineers bridge development and operations, automating the software delivery pipeline and ensuring reliable, scalable infrastructure.",
+    "skills": [
+      { "name": "CI/CD Pipelines (Jenkins, GitHub Actions)", "priority": "High", "reason": "Automating build, test, and deploy workflows is core DevOps work" },
+      { "name": "Docker & Kubernetes", "priority": "High", "reason": "Container technologies are fundamental to modern DevOps" },
+      { "name": "Infrastructure as Code (Terraform, Ansible)", "priority": "High", "reason": "Automating infrastructure provisioning is a key DevOps practice" },
+      { "name": "Linux & Shell Scripting", "priority": "High", "reason": "Linux is the foundation of most server infrastructure" },
+      { "name": "Cloud Platforms (AWS/GCP/Azure)", "priority": "High", "reason": "Cloud-native DevOps is the industry standard" },
+      { "name": "Monitoring & Observability", "priority": "Medium", "reason": "Tools like Prometheus, Grafana, and ELK stack are essential" }
+    ],
+    "relatedSubjects": ["Operating Systems", "Computer Networks", "Software Engineering", "Database Management Systems"],
+    "certifications": ["AWS DevOps Engineer Professional", "Certified Kubernetes Administrator (CKA)", "HashiCorp Terraform Associate"],
+    "suggestedProjects": [
+      "Set up a complete CI/CD pipeline using GitHub Actions",
+      "Deploy a containerized application using Docker Compose",
+      "Implement infrastructure as code using Terraform on AWS",
+      "Set up monitoring and alerting using Prometheus and Grafana",
+      "Build a GitOps workflow using ArgoCD and Kubernetes"
+    ]
+  },
+  {
+    "id": "cyber-security-engineer",
+    "title": "Cyber Security Engineer",
+    "description": "Cyber Security Engineers protect systems, networks, and data from threats. They implement security measures, conduct vulnerability assessments, and respond to incidents.",
+    "skills": [
+      { "name": "Network Security & Protocols", "priority": "High", "reason": "Understanding network layers is essential for security analysis" },
+      { "name": "Ethical Hacking & Penetration Testing", "priority": "High", "reason": "Offensive security skills are needed for vulnerability assessment" },
+      { "name": "Cryptography", "priority": "High", "reason": "Encryption and key management are fundamental security concepts" },
+      { "name": "SIEM & Security Monitoring", "priority": "High", "reason": "Security event monitoring and incident response are core skills" },
+      { "name": "Linux Security & Hardening", "priority": "High", "reason": "Most servers are Linux-based — securing them is critical" },
+      { "name": "Web Application Security (OWASP)", "priority": "Medium", "reason": "Web vulnerabilities (XSS, SQLi) are among the most common attack vectors" }
+    ],
+    "relatedSubjects": ["Computer Networks", "Operating Systems", "Database Management Systems"],
+    "certifications": ["CompTIA Security+", "Certified Ethical Hacker (CEH)", "OSCP (Offensive Security Certified Professional)"],
+    "suggestedProjects": [
+      "Set up a home lab for penetration testing practice",
+      "Complete TryHackMe or HackTheBox challenges",
+      "Implement a simple IDS/IPS system",
+      "Perform a vulnerability assessment on a test web application",
+      "Study and implement OWASP Top 10 mitigations"
+    ]
+  },
+  {
+    "id": "full-stack-developer",
+    "title": "Full Stack Developer",
+    "description": "Full Stack Developers build both frontend and backend of web applications, working across the entire technology stack from databases to user interfaces.",
+    "skills": [
+      { "name": "HTML, CSS, JavaScript", "priority": "High", "reason": "Core web technologies are the foundation of all frontend development" },
+      { "name": "React / Next.js", "priority": "High", "reason": "Modern frontend frameworks are used in most web applications" },
+      { "name": "Node.js / Python Backend", "priority": "High", "reason": "Server-side development is half of the full stack" },
+      { "name": "SQL & NoSQL Databases", "priority": "High", "reason": "Data persistence is essential in any web application" },
+      { "name": "REST APIs & GraphQL", "priority": "High", "reason": "API design is central to full-stack development" },
+      { "name": "Git & Version Control", "priority": "Medium", "reason": "Collaborative development requires version control proficiency" }
+    ],
+    "relatedSubjects": ["Database Management Systems", "Software Engineering", "Computer Networks", "Data Structures"],
+    "certifications": ["Meta Full Stack Developer Certificate", "AWS Developer Associate", "MongoDB Developer Certificate"],
+    "suggestedProjects": [
+      "Build a full-stack e-commerce application with React and Node.js",
+      "Create a real-time chat application using WebSockets",
+      "Develop a blogging platform with authentication and a CMS",
+      "Build a REST API with authentication, caching, and rate limiting",
+      "Deploy a full-stack application to a cloud provider"
+    ]
+  },
+  {
+    "id": "mobile-developer",
+    "title": "Mobile Developer",
+    "description": "Mobile Developers create applications for iOS and Android platforms using native or cross-platform frameworks like React Native and Flutter.",
+    "skills": [
+      { "name": "React Native / Flutter", "priority": "High", "reason": "Cross-platform frameworks allow building for iOS and Android together" },
+      { "name": "JavaScript / Dart", "priority": "High", "reason": "Primary languages for cross-platform mobile development" },
+      { "name": "Mobile UI/UX Design Principles", "priority": "High", "reason": "Mobile interfaces have unique design constraints and patterns" },
+      { "name": "REST APIs Integration", "priority": "High", "reason": "Mobile apps consume APIs for data and backend services" },
+      { "name": "App Store Deployment", "priority": "Medium", "reason": "Publishing apps to Google Play and Apple App Store is required" }
+    ],
+    "relatedSubjects": ["Software Engineering", "Database Management Systems", "Computer Networks"],
+    "certifications": ["Google Associate Android Developer", "Meta React Native Developer Certificate"],
+    "suggestedProjects": [
+      "Build a to-do app with local storage and sync using React Native",
+      "Create a weather application using a public API",
+      "Develop a fitness tracking app with charts and data visualization",
+      "Build a real-time messaging app for iOS and Android",
+      "Publish a simple app to the Google Play Store"
+    ]
+  },
+  {
+    "id": "researcher",
+    "title": "Researcher",
+    "description": "Academic and industry researchers advance the state of knowledge in Computer Science, contributing to conferences, journals, and open-source projects.",
+    "skills": [
+      { "name": "Research Methodology & Writing", "priority": "High", "reason": "Producing and communicating original research is the core skill" },
+      { "name": "Mathematics & Theory", "priority": "High", "reason": "Research often involves formal proofs and mathematical analysis" },
+      { "name": "Programming for Experimentation", "priority": "High", "reason": "Implementing and testing research ideas requires strong coding" },
+      { "name": "Literature Review & Citation", "priority": "High", "reason": "Understanding existing work is essential before contributing new research" },
+      { "name": "Statistical Analysis", "priority": "Medium", "reason": "Validating results with statistical methods is required for credibility" }
+    ],
+    "relatedSubjects": ["Data Structures", "Operating Systems", "Computer Networks", "Software Engineering", "Database Management Systems"],
+    "certifications": ["Google Scholar Profile", "ORCID Research ID", "Conference Paper Publication"],
+    "suggestedProjects": [
+      "Reproduce a research paper's experiments and write an analysis",
+      "Contribute to an open-source research library",
+      "Write a literature survey on an emerging CS topic",
+      "Submit a paper to an undergraduate research symposium",
+      "Build a project based on a published ML/systems research paper"
+    ]
+  }
+]

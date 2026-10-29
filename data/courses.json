@@ -1,0 +1,122 @@
+[
+  {
+    "id": "cs-001",
+    "code": "CS301",
+    "name": "Data Structures and Algorithms",
+    "description": "Fundamental data structures including arrays, linked lists, trees, graphs, and algorithm design techniques.",
+    "credits": 4,
+    "difficulty": "Medium",
+    "prerequisites": [],
+    "relatedCareers": ["software-engineer", "ai-engineer", "data-scientist", "full-stack-developer"],
+    "skills": ["Problem Solving", "Algorithm Design", "Data Structures"],
+    "semester": [3, 4]
+  },
+  {
+    "id": "cs-002",
+    "code": "CS401",
+    "name": "Operating Systems",
+    "description": "Processes, threads, memory management, file systems, synchronization, and OS design principles.",
+    "credits": 4,
+    "difficulty": "High",
+    "prerequisites": ["CS301"],
+    "relatedCareers": ["cloud-engineer", "devops-engineer", "software-engineer", "cyber-security-engineer"],
+    "skills": ["System Programming", "Process Management", "Memory Management"],
+    "semester": [4, 5]
+  },
+  {
+    "id": "cs-003",
+    "code": "CS402",
+    "name": "Database Management Systems",
+    "description": "Relational model, SQL, database design, normalization, transactions, and NoSQL concepts.",
+    "credits": 4,
+    "difficulty": "Medium",
+    "prerequisites": [],
+    "relatedCareers": ["data-scientist", "full-stack-developer", "software-engineer", "cloud-engineer"],
+    "skills": ["SQL", "Database Design", "Query Optimization"],
+    "semester": [4, 5]
+  },
+  {
+    "id": "cs-004",
+    "code": "CS403",
+    "name": "Computer Networks",
+    "description": "Network architecture, protocols (TCP/IP, HTTP, DNS), routing, switching, and network security fundamentals.",
+    "credits": 4,
+    "difficulty": "High",
+    "prerequisites": [],
+    "relatedCareers": ["cloud-engineer", "devops-engineer", "cyber-security-engineer"],
+    "skills": ["Networking", "Protocol Analysis", "Network Configuration"],
+    "semester": [5, 6]
+  },
+  {
+    "id": "cs-005",
+    "code": "CS404",
+    "name": "Software Engineering",
+    "description": "SDLC, Agile methodologies, software design patterns, testing strategies, and project management.",
+    "credits": 4,
+    "difficulty": "Medium",
+    "prerequisites": ["CS301"],
+    "relatedCareers": ["software-engineer", "full-stack-developer", "devops-engineer"],
+    "skills": ["Software Design", "Agile", "Testing", "Project Management"],
+    "semester": [5, 6]
+  },
+  {
+    "id": "cs-006",
+    "code": "CS501",
+    "name": "Cloud Computing",
+    "description": "Cloud service models, virtualization, containerization, serverless computing, and major cloud platforms.",
+    "credits": 3,
+    "difficulty": "Medium",
+    "prerequisites": ["CS401", "CS403"],
+    "relatedCareers": ["cloud-engineer", "devops-engineer", "ai-engineer"],
+    "skills": ["Cloud Fundamentals", "AWS/Azure/GCP", "Virtualization"],
+    "semester": [6, 7]
+  },
+  {
+    "id": "cs-007",
+    "code": "CS502",
+    "name": "Machine Learning",
+    "description": "Supervised, unsupervised and reinforcement learning algorithms, model evaluation, and practical ML pipelines.",
+    "credits": 4,
+    "difficulty": "High",
+    "prerequisites": ["CS301"],
+    "relatedCareers": ["ai-engineer", "data-scientist"],
+    "skills": ["Machine Learning", "Python", "Statistics", "Model Evaluation"],
+    "semester": [6, 7]
+  },
+  {
+    "id": "cs-008",
+    "code": "CS503",
+    "name": "Cyber Security",
+    "description": "Security principles, cryptography, ethical hacking, network security, and security operations.",
+    "credits": 3,
+    "difficulty": "High",
+    "prerequisites": ["CS403"],
+    "relatedCareers": ["cyber-security-engineer"],
+    "skills": ["Cryptography", "Ethical Hacking", "Security Fundamentals"],
+    "semester": [6, 7]
+  },
+  {
+    "id": "cs-009",
+    "code": "CS504",
+    "name": "Web Technologies",
+    "description": "HTML, CSS, JavaScript, frameworks, REST APIs, and modern web development practices.",
+    "credits": 3,
+    "difficulty": "Medium",
+    "prerequisites": [],
+    "relatedCareers": ["full-stack-developer", "mobile-developer"],
+    "skills": ["HTML/CSS", "JavaScript", "React", "REST APIs"],
+    "semester": [4, 5]
+  },
+  {
+    "id": "cs-010",
+    "code": "CS601",
+    "name": "Artificial Intelligence",
+    "description": "Search algorithms, knowledge representation, planning, natural language processing, and AI ethics.",
+    "credits": 4,
+    "difficulty": "High",
+    "prerequisites": ["CS301", "CS502"],
+    "relatedCareers": ["ai-engineer", "data-scientist"],
+    "skills": ["AI Fundamentals", "NLP", "Knowledge Representation"],
+    "semester": [7, 8]
+  }
+]

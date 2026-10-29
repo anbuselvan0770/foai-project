@@ -1,0 +1,31 @@
+{
+  "marksThresholds": {
+    "critical": { "max": 49, "label": "Critical", "color": "red" },
+    "needsAttention": { "min": 50, "max": 64, "label": "Needs Attention", "color": "orange" },
+    "average": { "min": 65, "max": 79, "label": "Average", "color": "yellow" },
+    "strong": { "min": 80, "label": "Strong", "color": "green" }
+  },
+  "attendanceThresholds": {
+    "critical": { "max": 74, "label": "Critical Attendance Risk", "color": "red" },
+    "warning": { "min": 75, "max": 79, "label": "Attendance Warning", "color": "orange" },
+    "good": { "min": 80, "label": "Good", "color": "green" }
+  },
+  "riskWeights": {
+    "attendanceCritical": 30,
+    "attendanceWarning": 15,
+    "marksCritical": 35,
+    "marksNeedsAttention": 20,
+    "multipleWeakSubjects": 15,
+    "lowOverallAverage": 20
+  },
+  "riskLevels": {
+    "low": { "max": 29, "label": "LOW" },
+    "medium": { "min": 30, "max": 59, "label": "MEDIUM" },
+    "high": { "min": 60, "label": "HIGH" }
+  },
+  "targetDefaults": {
+    "minimumPassMark": 50,
+    "minimumAttendance": 75,
+    "targetGPA": 70
+  }
+}

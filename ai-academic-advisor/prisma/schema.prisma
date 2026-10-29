@@ -1,0 +1,159 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id           String   @id @default(cuid())
+  name         String
+  email        String   @unique
+  passwordHash String
+  isDemo       Boolean  @default(false)
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  profile       StudentProfile?
+  subjects      Subject[]
+  interests     Interest[]
+  careerGoals   CareerGoal[]
+  studyPlans    StudyPlan[]
+  recommendations Recommendation[]
+  chatSessions  ChatSession[]
+  academicRisks AcademicRisk[]
+}
+
+model StudentProfile {
+  id              String   @id @default(cuid())
+  userId          String   @unique
+  department      String   @default("")
+  year            Int      @default(1)
+  semester        Int      @default(1)
+  studyHoursPerDay Float   @default(2)
+  learningStyle   String   @default("Videos")
+  targetGPA       Float    @default(70)
+  onboardingDone  Boolean  @default(false)
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model Subject {
+  id         String   @id @default(cuid())
+  userId     String
+  name       String
+  marks      Float    @default(0)
+  grade      String   @default("")
+  attendance Float    @default(0)
+  difficulty String   @default("Medium") // Low | Medium | High
+  semester   Int      @default(1)
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model Interest {
+  id        String   @id @default(cuid())
+  userId    String
+  name      String
+  createdAt DateTime @default(now())
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model CareerGoal {
+  id        String   @id @default(cuid())
+  userId    String
+  title     String
+  isCustom  Boolean  @default(false)
+  isPrimary Boolean  @default(false)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model StudyPlan {
+  id        String      @id @default(cuid())
+  userId    String
+  weekStart DateTime
+  title     String      @default("Weekly Study Plan")
+  createdAt DateTime    @default(now())
+  updatedAt DateTime    @updatedAt
+
+  user  User        @relation(fields: [userId], references: [id], onDelete: Cascade)
+  tasks StudyTask[]
+}
+
+model StudyTask {
+  id          String   @id @default(cuid())
+  studyPlanId String
+  subject     String
+  duration    Float    // hours
+  priority    String   @default("Medium") // Critical | High | Medium | Low
+  goal        String   @default("")
+  status      String   @default("Pending") // Pending | InProgress | Completed
+  dayOfWeek   String   // Monday | Tuesday | ... | Sunday
+  timeSlot    String   @default("Morning")
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  studyPlan StudyPlan @relation(fields: [studyPlanId], references: [id], onDelete: Cascade)
+}
+
+model Recommendation {
+  id            String   @id @default(cuid())
+  userId        String
+  title         String
+  category      String   // Course | Skill | Resource | Career | Study
+  priority      String   @default("Medium")
+  reason        String
+  benefit       String   @default("")
+  suggestedAction String @default("")
+  isAddedToPlan Boolean  @default(false)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model ChatSession {
+  id        String        @id @default(cuid())
+  userId    String
+  title     String        @default("New Chat")
+  createdAt DateTime      @default(now())
+  updatedAt DateTime      @updatedAt
+
+  user     User          @relation(fields: [userId], references: [id], onDelete: Cascade)
+  messages ChatMessage[]
+}
+
+model ChatMessage {
+  id            String      @id @default(cuid())
+  chatSessionId String
+  role          String      // user | assistant
+  content       String
+  createdAt     DateTime    @default(now())
+
+  chatSession ChatSession @relation(fields: [chatSessionId], references: [id], onDelete: Cascade)
+}
+
+model AcademicRisk {
+  id            String   @id @default(cuid())
+  userId        String
+  riskLevel     String   // LOW | MEDIUM | HIGH
+  riskScore     Float    @default(0)
+  riskFactors   String   @default("[]") // JSON string
+  suggestions   String   @default("[]") // JSON string
+  calculatedAt  DateTime @default(now())
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
